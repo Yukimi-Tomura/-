@@ -133,7 +133,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const appMonthDay = userAppDate.substring(5);     // "MM-DD"
 
             if (birthMonthDay === appMonthDay) {
-                birthdayMessageDisplay.textContent = 'ちおちゃん'<br>'お誕生日おめでとう！';
+                birthdayMessageDisplay.textContent = 'ちおちゃんお誕生日おめでとう！';
+                birthdayMessageDisplay.textContent = 'ちおちゃんお誕生日おめでとう！';
                 birthdayMessageDisplay.style.color = '#FF4500'; // オレンジレッド
                 birthdayMessageDisplay.style.fontWeight = 'bold';
                 birthdayMessageDisplay.style.fontSize = '1.5em';
